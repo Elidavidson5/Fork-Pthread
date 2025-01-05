@@ -51,12 +51,19 @@ Child process is created. (pid: zzzz)
 Child process is terminated. (pid: yyyy)
 Child process is terminated. (pid: zzzz)
 Main process is terminated. (pid: xxxx)
+
+
 The complete program will provide the following output files:
 os-stats.csv content: (please display at least 3 decimal places)
+
 Average,Median,Std. Dev
 XX.XXX,XX.XXX,XX.XXX
+
+
 os-sorted.csv content: (Notice that rank starts at 1, and don’t worry about the formatting for the # of
 digits to display after the decimal)
+
+
 Rank,Student ID,Grade
 1,XXXXXXXXXX,XX.XXX
 2,XXXXXXXXXX,XX.XXX
