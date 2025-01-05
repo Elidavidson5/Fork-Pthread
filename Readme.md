@@ -41,22 +41,21 @@ id to indicate the process has been created/terminated (you don’t need to do t
 ● The main process must complete its behavior after its child processes.
 The complete program will provide the following output. Pay attention to the order in which processes
 terminate. (The main process terminates last)
-./p1
-exec 2 4
-_
-Main process is created. (pid: xxxx)
-Child process is created. (pid: yyyy)
-Child process is created. (pid: zzzz)
+./p1_exec 2 4<br>
+
+Main process is created. (pid: xxxx)<br>
+Child process is created. (pid: yyyy)<br>
+Child process is created. (pid: zzzz)<br>
 ...
-Child process is terminated. (pid: yyyy)
-Child process is terminated. (pid: zzzz)
-Main process is terminated. (pid: xxxx)
+Child process is terminated. (pid: yyyy)<br>
+Child process is terminated. (pid: zzzz) <br>
+Main process is terminated. (pid: xxxx)<br>
 
 
 The complete program will provide the following output files:
-os-stats.csv content: (please display at least 3 decimal places)
+os-stats.csv content: (please display at least 3 decimal places)<br>
 
-Average,Median,Std. Dev
+Average,Median,Std. Dev <br>
 XX.XXX,XX.XXX,XX.XXX
 
 
@@ -64,10 +63,10 @@ os-sorted.csv content: (Notice that rank starts at 1, and don’t worry about th
 digits to display after the decimal)
 
 
-Rank,Student ID,Grade
-1,XXXXXXXXXX,XX.XXX
-2,XXXXXXXXXX,XX.XXX
-3,XXXXXXXXXX,XX.XXX
+Rank,Student ID,Grade <br>
+1,XXXXXXXXXX,XX.XXX <br>
+2,XXXXXXXXXX,XX.XXX <br>
+3,XXXXXXXXXX,XX.XXX <br>
 ....
 
 
